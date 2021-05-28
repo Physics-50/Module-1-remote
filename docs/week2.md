@@ -1,14 +1,3 @@
-#### Miniquestion: MATLAB
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeasXUSl_nhqgLiacs6A5kVKMuBAeJtP4Ln4LsqXUoqP_cvyA/viewform?usp=sf_link){:target="_blank"}*
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeasXUSl_nhqgLiacs6A5kVKMuBAeJtP4Ln4LsqXUoqP_cvyA/viewform?embedded=true" width="640" height="300" frameborder="10" marginheight="20" marginwidth="10">Loading…
-</iframe>
-
-
-
---------------------------
-
-
 # Week 2: Exploratory Phase (continued)
 
 
@@ -19,7 +8,7 @@
 2. Formulating a Hypothesis
 3. Instrumentation 
 4. [Exploratory Measurements](#exploratory-measurements) (continued from Week 1)
-5. [Designing the Experiment](#designing-the-experiment)
+5. [Checkpoint 2](#checkpoint-2)
 
 
 ------------------
@@ -32,7 +21,7 @@
 
 #### 1 Perform a Single Measurement
 
-From Week 1, you should have completed a single measurement of the critical angle and its resolution uncertainty $$\theta_c \pm \delta_\mathrm{res.}\theta_c$$. From that you propagated the uncertainty to calculate $$ \mu_s \pm \delta_\mathrm{res.} \mu_s$$, and concluded that your result was reasonable. If that isn't the case, please revisit [Week 1](week1) and [ask for help on Piazza](https://piazza.com/class/kdyuyniyaz052s){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
+From Week 1, you should have completed a single measurement of the critical angle and its resolution uncertainty $$\theta_c \pm \delta_\mathrm{res.}\theta_c$$. From that you propagated the uncertainty to calculate $$ \mu_s \pm \delta_\mathrm{res.} \mu_s$$, and concluded that your result was reasonable. If that isn't the case, please revisit [Week 1](week1) and [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
 
 
 #### 2 Perform a preliminary test of the hypothesis
@@ -97,16 +86,15 @@ From this preliminary test of repeatability, we would like to get an idea of wha
 
 + How many data points would you need to take in order for any effect due to changing mass to be larger than your random uncertainty? 
 
-Remember our goal is to make the strongest conclusion we can, which involves minimizing the experimental uncertainty. But more trials will take more time to perform,and there are diminishing returns to taking more datapoints. There is no right answer for balancing these two, but decide on the number of datapoints you will take and explain your reasoning in your experimental design.
-
 
 #### Miniquestion: How Many Trials
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeEwh4nclVo5lUZFmhBCM-n0td4vU4kPXocUJORmOVp1w2-Gg/viewform){:target="_blank"}*
+*[Click here to open in a new tab](https://forms.gle/Zc7GbHhS1ySxQbnFA){:target="_blank"}*
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEwh4nclVo5lUZFmhBCM-n0td4vU4kPXocUJORmOVp1w2-Gg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe7JH6ImWbMSDfMZkXMq2pYSVCpLyeMy4QVmInBqcK7j2yNqw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
+Remember our goal is to make the strongest conclusion we can, which involves minimizing the experimental uncertainty. But more trials will take more time to perform, and there are diminishing returns to taking more data points. There is no right answer for balancing these two, but if your calculations suggest you need 10,000 data points to achieve your desired resolution your time might be better spent redesigning the experiment. While there is no magic number, for the purpose of this course, balancing realistical expectations on your time, we will generally be satisfied with 5 data points. Anything less than this becomes very suspect in terms of statistical analysis, but we do want to respect realistic limits on your time and encourage you to be mindful of this as well. This means that for this experiment we expect you to look at 5 different masses and collect 5 data points for each mass. This "rule of thumb" will set our expectations throughout the course.
 
 
 #### 4 Explore Other Factors
@@ -127,34 +115,51 @@ What combination of block/ramp might yield the best quality data?
 
 If any of these factors affect the measurement, which ones are most significant?
 
-*Note: If we didn't already have a hypothesis in mind, we could use this exploration to help generate a hypothesis. If you have an idea that comes out of your exploration, be sure to share it [here on Piazza](https://piazza.com/class/kdyuyniyaz052s?cid=7){:target="_blank"}!* 
+*Note: If we didn't already have a hypothesis in mind, we could use this exploration to help generate a hypothesis.
 
+Please note that while it is important to explore the influence of parameters such as those suggested here during the exploratory phase to determine their significance on systematic error; once you begin collecting data you will want to control (keep constant) these same variables. Your exploration will give you an indication of how sigificant the parameters may be which inluences how tightly they need to be controlled.
 
-## Designing the Experiment
+#### 5 Additional Considerations
+Another consideration when forming an experimental plan is the order in which to collect data. Like with other considerations our underlying goal is to achieve experimental results in which any trends in the data can provide useful insight for the hypothesis we are investigating.  This includes an accurate representation of meaningful trends in our data (i.e. how does our data change with respect to changes in the independent variable) and an accurate representation of the uncertainty in our data. Often our data is sensitive to drift. Drift can occur from parameters that might “drift” over time. Temperature and humidity are two common sources of experimental drift. While unintentional and unadvised, experimental protocols can also unintentionally change over time, even when we try very hard to be consistent. One way to reduce our sensitivity to drift is to randomize the order in which data is collected. This will not eliminate the drift, but it will reduce the likelihood that it affects our results in a systematic way.
 
-At the end of the exploratory observations, we can now complete an Experimental Design that will determine how the actual experiment will be performed. 
-
-Some questions to answer in your experimental design:
-
-+ What hypothesis are you testing? (for Module 1 it's "The coefficient of static friction between two surfaces as measured by the critical angle at which an object slips is independent of its mass.")
-
-+ What is the detailed procedure for how you will obtain a measurement?
-
-+ What independent variable(s) are you going to vary?
-
-+ What factors are you going to control (hold constant)?
-
-+ How many data points will you take? (Given the spread of your preliminary data, think about an acceptable random uncertainty to observe an effect. You should follow a similar approach to the "How Many Trials" mini-question to make this estimate).
-
-+ In what order will you take the data points? (think about shuffling the order of data points you take)
-
-+ Based on the data you will obtain, how will you test the hypothesis?
 
 ## Checkpoint 2
 
-+ Write up your experimental design (save a copy for yourself) and then paste your design into [checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/607633){:target="_blank"} by the end Week 2.
+Designing the Experiment
+
+At the end of the exploratory observations, we can now complete an Experimental Design that will determine how the actual experiment will be performed. The first step of making an experimental design is to clearly articulate the hypothesis you are testing. For Module 1 it's "The coefficient of static friction between two surfaces as measured by the critical angle at which an object slips is independent of its mass."
+
+Please answer the following questions and paste your responses into the appropriates boxes for [checkpont 2 on Gradescope](https://www.gradescope.com/courses/216639/assignments/904967){:target="_blank"} by the end Week 2. You are not expected to complete the experiment just this week, just to submit a plan. Next week you will collect your data for the experiment.
+
++ Question 1: Independent Variable - Your independent variable will be the mass. Please describe the procedure by which you will vary the mass. You should plan to test at least 5 different masses. Keep your response to 1-2 sentences.
+
++ Question 2: Controlled variables - What factors are you going to control (hold constant)? For each factor please include (in one sentence) relevant details as to the procedure you will use to hold the variable constant. These details should be quantitative where appropriate (e.g. it would be a good idea to control the rate at which you raise the ramp. A strong experimental plan would include an estimate of the rate at which you will raise the ramp.) Expected response: list of variables to be controlled with a one sentence description of relevant details for each variable.
+
++ Question 3: Measurement of critical angle - The Phyphox app will continuously measure the angle of your phone. How will you accurately read out the angle corresponding to the critical angle. Keep your response to 1-2 sentences.
+
++ Question 4: It is important to have a plan for how many trials you will take as well as the order in which you will collect your data. How many trials per mass? How to order the measurements?
+
++ Question 5: Testing of Hypothesis - Based on the data you will obtain, how will you test the hypothesis? Keep your response to: 1-2 sentences.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
+
+
+## Anticipated week 2 checkpoint deductions:
+The checkpoint will be graded out of 15 points.
+
++ Independent Variable [2 points]
+    - Deduction if your explanation does not make it clear that other parameters which might influence the results (size, shape, materials in contact) will remain the same as the mass is varied [-0.25 points]
+    - Deduction if your explanation does not state what range of masses will be explored (Ok to state the range using nontraditional units) [-0.25 points]
+    - Deduction if the grader cannot follow the student's plan for varying the mass. [-1.5 points]
++ Controlled  Variables [4 points]
+    - Deductions ranging from 0.5 points to 2.0 points if description of how the tilting rate will be controlled is incomplete
+    - Deduction of 0.5 to 1.0 points if consistent positioning of object on ramp is not adequately described
+    -Deduction of 1.0 points if ambient variables are not given appropriate consideration
++ Measurement and Critical Angle [3 points]
+    - For full credit you will need to propose a reasonable method to identify the maximum angle before the mass begins to slide that does not require fancy handiwork during the experiment.
++ Testing of hypothesis [3 points]
+    - For full credit you will need to propose a reasonable method to assess your hypothesis that takes into consideration your experimental uncertainties.
++ Deductions will also be assessed for failing to submit the checkpoint on time as outlined in the course syllabus.
 
 ## Final Note
 
